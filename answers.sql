@@ -23,3 +23,6 @@ FROM SplitProducts
 ORDER BY OrderID;
 
 Question 2
+CREATE TABLE Orders AS
+SELECT DISTINCT OrderID, CustomerName
+FROM OrderDetails;
